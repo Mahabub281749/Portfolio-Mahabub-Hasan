@@ -361,7 +361,7 @@ body
     font-weight: 100;
     padding: 15px 20px;
     font-size: 35px;
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     left: 30px;
 }
@@ -371,7 +371,7 @@ body
     font-weight: 100;
     padding: 15px 20px;
     font-size: 35px;
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     left: 80px;
 }
@@ -720,12 +720,16 @@ h3.my-profession
     font-weight: 700;
     text-transform: capitalize;
 }
-.service .service-item .service-item-inner p
+.service .service-item .service-item-inner .expertise
 {
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
-
+    font-style: italic;
+}
+.service .service-item .service-item-inner .expertise span
+{
+    font-weight: 600;
 }
 .service .service-item .service-item-inner .buttons
 {
