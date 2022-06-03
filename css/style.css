@@ -355,25 +355,32 @@ body
     position: fixed;
     bottom: 0px;
 }*/
+.aside .linkedin-reference
+{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
 .aside .linkedin-reference a
 {
-    
     font-weight: 100;
     padding: 15px 20px;
     font-size: 35px;
+    position: relative;
+    bottom: 0px;  
+}
+.aside .github-reference
+{
     position: absolute;
     bottom: 20px;
-    left: 30px;
+    left: 90px;
 }
 .aside .github-reference a
-{
-    
+{ 
     font-weight: 100;
     padding: 15px 20px;
     font-size: 35px;
-    position: absolute;
-    bottom: 20px;
-    left: 80px;
+    position: relative;  
 }
 
 /* home */
