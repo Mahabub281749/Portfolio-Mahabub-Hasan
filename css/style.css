@@ -19,7 +19,7 @@ body
 {
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 *
 {
@@ -365,7 +365,7 @@ body
 {
     font-weight: 100;
     padding: 15px 20px;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
     bottom: 0px;  
 }
@@ -379,7 +379,7 @@ body
 { 
     font-weight: 100;
     padding: 15px 20px;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;  
 }
 
@@ -419,7 +419,7 @@ h3.my-profession
 .home-info p
 {
     margin-bottom: 70px;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text-black-700);
 }
 .home .home-img
@@ -865,23 +865,82 @@ h3.my-profession
     color: var(--text-black-900);
     font-weight: 500;
 }
-.portfolio .portfolio-item
+.portfolio .portfolio-item 
 {
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 100%;
+    max-width: 100%;
     margin-bottom: 30px;
 }
-.portfolio .portfolio-item-inner
+.portfolio .portfolio-item .portfolio-item-inner
 {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
 }
+.portfolio .portfolio-item .portfolio-item-inner:hover
+{
+    box-shadow:  0 0 20px rgba(48, 46, 77, 0.15);
+}
+.portfolio .portfolio-item-inner .project-item-inner h4
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: green;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.portfolio .portfolio-item-inner .project-item-inner .expertise
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+    padding-left: 20px;
+    font-style: italic;
+}
+.portfolio .portfolio-item-inner .project-item-inner .expertise span
+{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.portfolio .portfolio-item-inner .project-item-inner .expertise a
+{
+    font-weight: 100;
+    padding: 15px 10px;
+    font-size: 25px;
+    position: relative;
+    
+     
+}
+/*
+.portfolio .portfolio-item-inner .project-item-inner .expertise .github-reference
+{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+.portfolio .portfolio-item-inner .project-item-inner .expertise .github-reference a
+{ 
+    font-weight: 100;
+    padding: 15px 20px;
+    font-size: 35px;
+    position: relative;  
+}
+*/
 .portfolio .portfolio-item-inner .portfolio-img img
 {
-    width: 100%;
-    display: block;
+    /*width: 100%;*/
+    flex: 0 0 31%;
+    max-width: 31%;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--bg-black-50);
+    margin-left: 20px;
 }
 /* contact */
 .contact-title
