@@ -687,7 +687,7 @@ h3.my-profession
     text-align: center;
     transition: all 0.3s ease;
 }
-.certification .certificate-item .certificate-item-inner .icon .fa
+/*.certification .certificate-item .certificate-item-inner .icon .fa
 {
     font-size: 40px;
     line-height: 60px;
@@ -702,7 +702,7 @@ h3.my-profession
 {
     font-size: 25px;
     color: #ffffff;
-}
+}*/
 .certification .certificate-item .certificate-item-inner .icon .fab
 {
     font-size: 40px;
@@ -747,7 +747,7 @@ h3.my-profession
     word-spacing: 25px;
     
 }
-.certification .certificate-item .certificate-item-inner .view .btn-2
+.certification .certificate-item .certificate-item-inner .buttons .view .btn-2
 {
     margin-top: 10px;
 }
@@ -882,7 +882,7 @@ h3.my-profession
 {
     box-shadow:  0 0 20px rgba(48, 46, 77, 0.15);
 }
-.portfolio .portfolio-item-inner .project-item-inner h4
+.portfolio .portfolio-item .portfolio-item-inner .project-item-inner h4
 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -893,7 +893,7 @@ h3.my-profession
     padding-left: 20px;
     padding-top: 10px;
 }
-.portfolio .portfolio-item-inner .project-item-inner .expertise
+.portfolio .portfolio-item .portfolio-item-inner .project-item-inner .expertise
 {
     font-size: 16px;
     color: var(--text-black-700);
@@ -901,13 +901,13 @@ h3.my-profession
     padding-left: 20px;
     font-style: italic;
 }
-.portfolio .portfolio-item-inner .project-item-inner .expertise span
+.portfolio .portfolio-item .portfolio-item-inner .project-item-inner .expertise span
 {
     font-weight: 600;
     font-style: normal;
 }
 
-.portfolio .portfolio-item-inner .project-item-inner .expertise a
+.portfolio .portfolio-item .portfolio-item-inner .project-item-inner .expertise a
 {
     font-weight: 100;
     padding: 15px 10px;
@@ -931,7 +931,7 @@ h3.my-profession
     position: relative;  
 }
 */
-.portfolio .portfolio-item-inner .portfolio-img img
+.portfolio .portfolio-item .portfolio-item-inner .portfolio-img img
 {
     /*width: 100%;*/
     flex: 0 0 31%;
@@ -1072,8 +1072,18 @@ h3.my-profession
 @media (max-width:991px)
 {
     .contact .contact-info-item,
-    .portfolio .portfolio-item,
-    .service .service-item
+    .service .service-item,
+    .certification .certificate-item
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .portfolio .portfolio-item
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio .portfolio-item .portfolio-item-inner .portfolio-img img
     {
         flex: 0 0 50%;
         max-width: 50%;
@@ -1094,6 +1104,7 @@ h3.my-profession
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item,
+    .certification .certificate-item,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
