@@ -1115,7 +1115,7 @@ h3.my-profession
     .certification .certificate-item,
     .about .about-content .experience,
     .about .about-content .education,
-    .about .about-content .skills,
+    .about .about-content .skills .skill-item,
     .about .about-content .personal-info
     {
         flex: 0 0 100%;
