@@ -202,6 +202,27 @@ body
 {
     transform: scale(1.05);
 }
+.btn-3:disabled,
+.btn-3.disabled
+{
+    font-size: 13px;
+    font-weight: 500;
+    width: 120px;
+    padding: 5px 20px;
+    color:#fff;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background-color: #a0a0a0;
+    transition: all 0.3s ease;
+}
+.btn-3.disabled:hover,
+.btn-3:disabled:hover
+{
+    background-color: #a0a0a0;
+    transform: scale(1.05);
+}
 .shadow-dark
 {
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
@@ -421,6 +442,12 @@ h3.my-profession
     margin-bottom: 70px;
     font-size: 18px;
     color: var(--text-black-700);
+}
+.home-info img
+{
+    height: 110px;
+    width: 130px;
+    padding-right: 40px;
 }
 .home .home-img
 {
@@ -854,6 +881,10 @@ h3.my-profession
     
 }
 .service .service-item .service-item-inner .buttons .view .btn-2
+{
+    margin-top: 10px;
+}
+.service .service-item .service-item-inner .buttons .view .btn-3
 {
     margin-top: 10px;
 }
