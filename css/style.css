@@ -1132,6 +1132,11 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .home .home-info img
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
     .home .home-img
     {
         display: none;
